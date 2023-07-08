@@ -36,32 +36,33 @@
 	<!-- Header -->
 	<header class="pricing container-fluid">
 		<div class="container-lg">
-			<!-- Navbar -->
-			<nav class="d-flex flex-column flex-sm-row pt-4" id="a11y-primary-nav" tabindex="-1">
-				<!-- Brand -->
-				<div class="d-flex flex-column flex-sm-row col-sm-6 align-items-center">
-					<img class="m-2" src="images/smile_off.png" height="30px" width="40px" alt="">
-					<img class="m-2" src="images/logo.png" height="30px" width="115px" alt="">
-				</div>
-				<!-- Hamburger menu -->
-				<button class="navbar-toggler float-left position-absolute d-sm-none" type="button" data-toggle="collapse" data-target="#navbarContent" aria-expanded="false" aria-label="Toggle navigation menu">
-					<span class="navbar-icon"></span>
-				</button>
-				<!-- Menu -->
-				<div class="collapse navbar-collapse d-sm-flex col-sm-6" id="navbarContent">
-					<ul class="navbar-nav text-uppercase ml-auto flex-sm-row align-items-center font-weight-bold">
-						<li class="navbar-item">
-							<a class="nav-link text-white mx-5" href="courses.html">Courses</a>
-						</li>
-						<li class="navbar-item">
-							<a class="current nav-link purple mx-5" href="pricing.html">Pricing</a>
-						</li>
-						<li class="navbar-item">
-							<a class="nav-link text-white mx-5" href="#">Login</a>
-						</li>
-					</ul>
-				</div>
-			</nav>
+        <!-- Nav Bar -->
+        <nav class="d-flex flex-column flex-sm-row pt-4">
+			<!-- Logo -->
+			<div class="d-flex flex-column flex-sm-row col-sm-6 align-items-center">
+			<img class="m-2" src="images/smile_off.png" height="30px" width="40px">
+			<img class="m-2" src="images/logo.png" height="30px" width="115px">
+			</div>
+
+			<!-- Hamburger Menu -->
+			<button class="navbar-toggler float-left position-absolute d-sm-none" type="button" data-toggle="collapse" data-target="#navbarLinks">
+			<span class="holberton_school-icon-menu text-white"></span>
+			</button>
+			<!-- Nav links -->
+			<div class="collapse navbar-collapse d-sm-flex col-sm-6" id="navbarLinks">
+			<ul class="navbar-nav text-uppercase ml-auto flex-sm-row align-items-center font-weight-bold">
+				<li class="navbar-item">
+				<a class="nav-link text-white mx-5 mx-lg-3 mx-sm-0" href="courses.html">COURSES</a>
+				</li>
+				<li class="navbar-item">
+				<a class="nav-link text-white mx-5 mx-lg-4 mx-sm-4" href="pricing.html">PRICING</a>
+				</li>
+				<li class="navbar-item">
+				<a class="nav-link text-white mx-5 mx-lg-4 mx-sm-4" href="#">LOGIN</a>
+				</li>
+			</ul>
+			</div>
+		</nav>
 			<!-- Hero section -->
 			<div class="position-relative pt-5 mt-5">
 				<div class="justify-content-center align-items-center pt-5 mt-5 row">
@@ -86,15 +87,6 @@
 				<button class="btn btn-secondary rounded-pill text-uppercase py-2 px-4 m-4" href="#">Buy 1 Year</button>
 				<h1 class="font-weight-bold display-5">$12.99</h1>
 				<p class="font-weight-light text-muted mb-4">$1.08/month</p>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col d-none d-md-block"></div>
-			<div class="col text-center">
-				<h2 class="text-uppercase">3 months</h2>
-			</div>
-			<div class="col text-center">
-				<h2 class="text-uppercase">1 year</h2>
 			</div>
 		</div>
 		<div class="row pt-4 pb-3">
@@ -154,7 +146,7 @@
 
 	<main id="a11y-main-content" tabindex="-1">
 
-		<section class="container-fluid purple-bg">
+		<section class="container-fluid bg-purple">
 			<div class="container-lg">
 				<div id="carouselExampleControls" class="carousel slide" data-interval="false">
 					<div class="carousel-inner">
@@ -168,7 +160,7 @@
 									<div class="card-body">
 										<h1 class="lead">« Those tutorials are concise and go straight to the point. I can’t think of a better place to learn smiling. And it’s so fun!</h1>
 										<p>
-											<span class="font-weight-bold">Person Name</span>
+											<p class="font-weight-bold">Person Name
 											<br><span class="font-italic">weather presenter</span>
 										</p>
 									</div>
@@ -185,7 +177,7 @@
 									<div class="card-body">
 										<h1 class="lead">« Those tutorials are concise and go straight to the point. I can’t think of a better place to learn smiling. And it’s so fun!</h1>
 										<p>
-											<span class="font-weight-bold">Person Name</span>
+											<p class="font-weight-bold">Person Name
 											<br><span class="font-italic">weather presenter</span>
 										</p>
 									</div>
@@ -194,11 +186,11 @@
 						</div>
 					<!-- carousel controls -->
 					<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-						<img class="left-arrow" src="images/arrow_white_left.png" aria-hidden="true"></img>
+						<img class="left-arrow" src="images/arrow_white_left.png" aria-hidden="true" height="65px" width="30px">
 						<span class="sr-only">Previous</span>
 					</a>
 					<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-						<img src="images/arrow_white_right.png" aria-hidden="true"></s=>
+						<img src="images/arrow_white_right.png" aria-hidden="true" height="65px" width="30px">
 						<span class="sr-only">Next</span>
 					</a>
 				</div>
@@ -282,6 +274,7 @@
 			</div>
 			<p class="text-center text-muted small pb-5 mb-0">©smileschool 2020</p>
 			</div>
+	</footer>
 
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
 		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>

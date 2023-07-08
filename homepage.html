@@ -8,11 +8,14 @@
 	<title>Holberton Smile School- Homepage</title>
 	<meta name="description" content="Bootstrap is a free and open-source CSS framework">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap"
+		rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Coiny&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
 	<!-- Bootstrap v.4 -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<link rel="stylesheet" href="styles.css">
 	<link rel="stylesheet" href="holberton_school-icon/style.css">
 </head>
@@ -31,50 +34,55 @@
 	</nav>
 
 	<!-- Header section -->
-	<header class="homepage container-fluid text-center text-white">
+	<header class="homepage container-fluid text-center">
 		<div class="container-lg">
-        <!-- Nav Bar -->
-        <nav class="d-flex flex-column flex-sm-row pt-4">
-			<!-- Logo -->
-			<div class="d-flex flex-column flex-sm-row col-sm-6 align-items-center">
-			<img class="m-2" src="images/smile_off.png" height="30px" width="40px">
-			<img class="m-2" src="images/logo.png" height="30px" width="111px">
-			</div>
+			<!-- Nav Bar -->
+			<nav class="d-flex flex-column flex-sm-row pt-4" id="a11y-primary-nav" tabindex="-1">
+				<!-- Logo -->
+				<div class="d-flex flex-column flex-sm-row col-sm-6 align-items-center">
+					<img class="m-2" src="images/smile_off.png" height="30px" width="40px">
+					<img class="m-2" src="images/logo.png" height="30px" width="115px">
+				</div>
 
-			<!-- Hamburger Menu -->
-			<button class="navbar-toggler float-left position-absolute d-sm-none" type="button" data-toggle="collapse" data-target="#navbarLinks">
-			<span class="holberton_school-icon-menu text-white"></span>
-			</button>
-			<!-- Nav links -->
-			<div class="collapse navbar-collapse d-sm-flex col-sm-6" id="navbarLinks">
-			<ul class="navbar-nav text-uppercase ml-auto flex-sm-row align-items-center font-weight-bold">
-				<li class="navbar-item">
-				<a class="nav-link text-white mx-5 mx-lg-3 mx-sm-0" href="courses.html">COURSES</a>
-				</li>
-				<li class="navbar-item">
-				<a class="nav-link text-white mx-5 mx-lg-4 mx-sm-4" href="pricing.html">PRICING</a>
-				</li>
-				<li class="navbar-item">
-				<a class="nav-link text-white mx-5 mx-lg-4 mx-sm-4" href="#">LOGIN</a>
-				</li>
-			</ul>
-			</div>
-		</nav>
+				<!-- Hamburger Menu -->
+				<button class="navbar-toggler float-left position-absolute d-sm-none" type="button"
+					data-toggle="collapse" data-target="#navbarLinks" aria-expanded="false"
+					aria-label="Toggle navigation menu">
+					<span class="holberton_school-icon-menu text-white"></span>
+				</button>
+				<!-- Nav links -->
+				<div class="collapse navbar-collapse d-sm-flex col-sm-6" id="navbarLinks">
+					<ul class="navbar-nav text-uppercase ml-auto flex-sm-row align-items-center font-weight-bold">
+						<li class="navbar-item">
+							<a class="nav-link text-white mx-5 mx-lg-3 mx-sm-0" href="courses.html">COURSES</a>
+						</li>
+						<li class="navbar-item">
+							<a class="nav-link text-white mx-5 mx-lg-4 mx-sm-4" href="pricing.html">PRICING</a>
+						</li>
+						<li class="navbar-item">
+							<a class="nav-link text-white mx-5 mx-lg-4 mx-sm-4" href="#">LOGIN</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
 			<!-- Hero section with main message -->
 			<div class="position-relative pt-5 mt-5">
 				<div class="row">
 					<div class="col text-center pt-5 mt-5">
-						<h1 class="font-weight-bold display-2">Get schooled</h1>
+						<h1 class="font-weight-bold schooled">Get schooled</h1>
 						<div class="row justify-content-center">
-							<p class="text-white text-uppercase font-weight-bold mr-5 ml-2">Smiles</p>
-							<p class="text-white text-uppercase font-weight-bold mr-5 ml-2">Grin</p>
-									<p class="text-white text-uppercase font-weight-bold mr-5 ml-2">Laugh</p>
-								</div>
-								<a class="btn btn-primary rounded-pill text-uppercase font-weight-bold btn-shadow px-4 py-2 m-3" href="#">Register for free</a>
-								<h2 class="font-weight-light mt-5 pt-5"><span class="font-weight-bold text-primary">Learn</span> from the pros</h2>
-							</div>
-							</div>
+							<p class="text-uppercase font-weight-bold mr-5 ml-2">Smiles</p>
+							<p class="text-uppercase font-weight-bold mr-5 ml-2">Grin</p>
+							<p class="text-uppercase font-weight-bold mr-5 ml-2">Laugh</p>
 						</div>
+						<button
+							class="btn btn-primary rounded-pill text-uppercase font-weight-bold btn-shadow px-4 py-2 m-3"
+							href="#">Register for free</button>
+						<h2 class="font-weight-light mt-5 pt-5"><span class="font-weight-bold text-primary">Learn</span>
+							from the pros</h2>
+					</div>
+				</div>
+			</div>
 			<!-- Award Pros section with profiles -->
 			<div class="row mt-5 py-5">
 				<div class="col-xl-3 col-md-3 col-6 col-sm-3">
@@ -106,97 +114,102 @@
 					</div>
 				</div>
 			</div>
-		</div>
 	</header>
-<!-- Main content -->
+	<!-- Main content -->
 	<main id="a11y-main-content" tabindex="-1">
 		<!-- Main Carousel Block -->
 		<section class="container-fluid bg-purple">
-				<div class="container-lg">
-					<div id="carouselControls" class="carousel slide" data-interval="false" data-ride="carousel">
-						<div class="carousel-inner">
-							<!-- item one -->
-							<div class="carousel-item active">
-								<div class="row align-items-center justify-content-center">
-									<div class="col-md-4 text-center">
-										<img class="rounded-circle m-5 w-50" src="images/profile_5.jpg" alt="" width="210px">
-									</div>
-									<div class="col-md-5">
-										<div class="card-body">
-											<p class="px-2 mt-4 mt-md-0 font-weight-light lead">&#171; Those tutorials are concise and go straight to the point. I can't think of a better place to learn something. And it's so fun!</p>
-												<span class="font-weight-bold">Person Name</span>
-												<br><span class="font-italic">weather presenter</span>
-											</p>
-										</div>
+			<div class="container-lg">
+				<div id="carouselControls" class="carousel slide" data-interval="false" data-ride="carousel">
+					<div class="carousel-inner">
+						<!-- item one -->
+						<div class="carousel-item active">
+							<div class="row align-items-center justify-content-center">
+								<div class="col-md-4 text-center">
+									<img class="rounded-circle m-5" src="images/profile_5.jpg" alt="" width="210px">
+								</div>
+								<div class="col-md-5">
+									<div class="card-body">
+										<blockquote class="px-2 mt-4 mt-md-0 font-weight-light lead">&#171; Those
+											tutorials are concise and go straight to the point. I can't think of a
+											better place to learn something. And it's so fun!</blockquote>
+										<p class="font-weight-bold">Person Name
+										<br><span class="font-italic">weather presenter</span></p>
 									</div>
 								</div>
 							</div>
-							<!-- item two -->
-							<div class="carousel-item">
-								<div class="row align-items-center justify-content-center">
-									<div class="col-md-4 text-center">
-										<img class="rounded-circle m-5 w-50" src="images/profile_5.jpg" alt="">
-									</div>
-									<div class="col-md-5">
-										<div class="card-body">
-											<p class="px-2 mt-4 mt-md-0 font-weight-light lead">&#171; Those tutorials are concise and go straight to the point. I can't think of a better place to learn something. And it's so fun!</p>
-											<p>
-												<span class="font-weight-bold">Person Name</span>
-												<br><span class="font-italic">weather presenter</span>
-											</p>
-										</div>
+						</div>
+						<!-- item two -->
+						<div class="carousel-item">
+							<div class="row align-items-center justify-content-center">
+								<div class="col-md-4 text-center">
+									<img class="rounded-circle m-5" src="images/profile_5.jpg" alt="" width="210px">
+								</div>
+								<div class="col-md-5">
+									<div class="card-body">
+										<blockquote class="px-2 mt-4 mt-md-0 font-weight-light lead">&#171; Those
+											tutorials are concise and go straight to the point. I can't think of a
+											better place to learn something. And it's so fun!</blockquote>
+										<p class="font-weight-bold">Person Name
+										<br><span class="font-italic">weather presenter</span></p>
 									</div>
 								</div>
 							</div>
-							<!-- item three -->
-							<div class="carousel-item">
-								<div class="row align-items-center justify-content-center">
-									<div class="col-md-4 text-center">
-										<img class="rounded-circle m-5 w-50" src="images/profile_5.jpg" alt="">
-									</div>
-									<div class="col-md-5">
-										<div class="card-body">
-											<blockquote class="px-2 mt-4 mt-md-0 font-weight-light lead">&#171; Those tutorials are concise and go straight to the point. I can't think of a better place to learn something. And it's so fun!</blockquote>
-											<p>
-												<footer class="font-weight-bold">Person Name</footer>
-												<br><span class="font-italic">weather presenter</span>
-											</p>
-										</div>
+						</div>
+						<!-- item three -->
+						<div class="carousel-item">
+							<div class="row align-items-center justify-content-center">
+								<div class="col-md-4 text-center">
+									<img class="rounded-circle m-5" src="images/profile_5.jpg" alt="" width="210px">
+								</div>
+								<div class="col-md-5">
+									<div class="card-body">
+										<blockquote class="px-2 mt-4 mt-md-0 font-weight-light lead">&#171; Those
+											tutorials are concise and go straight to the point. I can't think of a
+											better place to learn something. And it's so fun!</blockquote>
+										<p class="font-weight-bold">Person Name
+										<br><span class="font-italic">weather presenter</span></p>
 									</div>
 								</div>
 							</div>
+						</div>
 						<!-- carousel controls -->
-						<a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
-							<img class="left-arrow" src="images/arrow_white_left.png" aria-hidden="true">
+						<a class="carousel-control-prev mb-5 mb-sm-0" href="#carouselControls" role="button"
+							data-slide="prev">
+							<img class="left-arrow mb-5 mb-sm-0" src="images/arrow_white_left.png" aria-hidden="true" height="65px" width="30px">
 							<span class="sr-only">Previous</span>
 						</a>
-						<a class="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
-							<img src="images/arrow_white_right.png" aria-hidden="true">
+						<a class="carousel-control-next mb-5 mb-sm-0" href="#carouselControls" role="button"
+							data-slide="next">
+							<img class="right-arrow mb-5 mb-sm-0" src="images/arrow_white_right.png" aria-hidden="true" height="65px" width="30px">
 							<span class="sr-only">Next</span>
 						</a>
 					</div>
 				</div>
 		</section>
 		<!-- Popular videos section -->
-        <section class="container-fluid text-dark bg-white">
-			<h1 class="py-5 my-5 text-center font-weight-light">Most <span class="font-weight-bold text-primary">popular</span> tutorials</h1>
+		<section class="container-fluid text-dark py-5 mb-5 d-none d-sm-block">
+			<h1 class="py-5 my-5 text-center font-weight-light">Most <span
+					class="font-weight-bold text-primary">popular</span> tutorials</h1>
 			<div id="popularvids" class="carousel slide" data-ride="carousel">
-				<div class="container-lg">
+				<div class="container-lg mx-auto">
 					<div class="carousel-inner">
 						<div class="carousel-item active">
 							<div class="d-flex">
-							<!-- Item one -->
+								<!-- Item one -->
 								<div class="card col-lg-3 col-md-6 col-12 border-0">
 									<img class="card-img-top" src="images/thumbnail_4.jpg" alt="">
 									<div class="card-body mb-5">
 										<h1 class="card-title lead font-weight-bold">Diagonal Smile</h1>
-										<p class="card-text text-secondary">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
-										<div class="row">
-											<img class="rounded-circle ml-3" src="images/profile_1.jpg" height="25px" width="25px" alt="">
-											<img class="card-img-overlay mx-auto mb-auto w-50" src="images/play.png" alt="play button">
-											<p class="ml-3 text-barney">Phillip Massey</p>
+										<p class="card-text text-secondary">Lorem ipsum dolor sit amet, consect
+											adipiscing elit, sed do eiusmod.</p>
+										<div class="row align-item-center">
+											<img class="rounded-circle ml-3" src="images/profile_1.jpg" height="25px"
+												width="25px" alt="">
+											<img class="card-img-overlay mx-auto mb-auto play" src="images/play.png"
+												alt="play button">
+											<p class="ml-3 text-primary">Phillip Massey</p>
 										</div>
-                                        <div class="row">
 										<div class="row align-items-center justify-content-between px-4">
 											<div class="row">
 												<img src="images/star_on.png" class="" alt="star">
@@ -205,23 +218,24 @@
 												<img src="images/star_on.png" class="" alt="star">
 												<img src="images/star_off.png" class="" alt="star">
 											</div>
-											<p class="ml-3 pt-3 text-barney">8 min</p>
-											</div>
-                                        </div>
+											<p class="ml-3 pt-3 text-primary">8 min</p>
+										</div>
 									</div>
 								</div>
-							<!-- Item two -->
+								<!-- Item two -->
 								<div class="card col-lg-3 col-md-6 col-12 border-0">
 									<img class="card-img-top" src="images/thumbnail_3.jpg" alt="">
 									<div class="card-body">
 										<h1 class="card-title lead font-weight-bold">Sad Smile</h1>
-										<p class="card-text text-secondary">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
-										<div class="row">
-											<img class="rounded-circle ml-3" src="images/profile_1.jpg" height="25px" width="25px" alt="">
-											<img class="card-img-overlay mx-auto mb-auto w-50" src="images/play.png" alt="play button">
-											<p class="ml-3 text-barney">Phillip Massey</p>
+										<p class="card-text text-secondary">Lorem ipsum dolor sit amet, consect
+											adipiscing elit, sed do eiusmod.</p>
+										<div class="row align-items-center">
+											<img class="rounded-circle ml-3" src="images/profile_1.jpg" height="25px"
+												width="25px" alt="">
+											<img class="card-img-overlay mx-auto mb-auto play" src="images/play.png"
+												alt="play button">
+											<p class="ml-3 text-primary">Phillip Massey</p>
 										</div>
-                                        <div class="row">
 										<div class="row align-items-center justify-content-between px-4">
 											<div class="row">
 												<img src="images/star_on.png" class="" alt="star">
@@ -230,23 +244,24 @@
 												<img src="images/star_on.png" class="" alt="star">
 												<img src="images/star_off.png" class="" alt="star">
 											</div>
-											<p class="text-barney ml-3 pt-3">8 min</p>
-											</div>
-                                        </div>
+											<p class="text-primary ml-3 pt-3">8 min</p>
+										</div>
 									</div>
 								</div>
-							<!-- Item three -->
+								<!-- Item three -->
 								<div class="card col-lg-3 col-md-6 col-12 border-0">
 									<img class="card-img-top" src="images/thumbnail_1.jpg" alt="">
 									<div class="card-body">
 										<h1 class="card-title lead font-weight-bold">Natural Smile</h1>
-										<p class="card-text text-secondary">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
-										<div class="row">
-											<img class="rounded-circle ml-3" src="images/profile_1.jpg" height="25px" width="25px" alt="">
-											<img class="card-img-overlay mx-auto mb-auto w-50" src="images/play.png" alt="play button">
-											<p class="ml-3 text-barney">Phillip Massey</p>
+										<p class="card-text text-secondary">Lorem ipsum dolor sit amet, consect
+											adipiscing elit, sed do eiusmod.</p>
+										<div class="row align-items-center">
+											<img class="rounded-circle ml-3" src="images/profile_1.jpg" height="25px"
+												width="25px" alt="">
+											<img class="card-img-overlay mx-auto mb-auto play" src="images/play.png"
+												alt="play button">
+											<p class="ml-3 text-primary">Phillip Massey</p>
 										</div>
-                                        <div class="row">
 										<div class="row align-items-center justify-content-between px-4">
 											<div class="row">
 												<img src="images/star_on.png" class="" alt="star">
@@ -255,23 +270,24 @@
 												<img src="images/star_on.png" class="" alt="star">
 												<img src="images/star_off.png" class="" alt="star">
 											</div>
-											<p class="text-barney ml-3 pt-3">8 min</p>
-											</div>
-                                        </div>
+											<p class="text-primary ml-3 pt-3">8 min</p>
+										</div>
 									</div>
 								</div>
-							<!-- Item four -->
+								<!-- Item four -->
 								<div class="card col-lg-3 col-md-6 col-12 border-0">
 									<img class="card-img-top" src="images/thumbnail_2.jpg" alt="">
 									<div class="card-body">
 										<h1 class="card-title lead font-weight-bold">Happy Smile</h1>
-										<p class="card-text text-secondary">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
-										<div class="row">
-											<img class="rounded-circle ml-3" src="images/profile_1.jpg" height="25px" width="25px" alt="">
-											<img class="card-img-overlay mx-auto mb-auto w-50" src="images/play.png" alt="play button">
-											<p class="ml-3 text-barney">Phillip Massey</p>
+										<p class="card-text text-secondary">Lorem ipsum dolor sit amet, consect
+											adipiscing elit, sed do eiusmod.</p>
+										<div class="row align-items-center">
+											<img class="rounded-circle ml-3" src="images/profile_1.jpg" height="25px"
+												width="25px" alt="">
+											<img class="card-img-overlay mx-auto mb-auto play" src="images/play.png"
+												alt="play button">
+											<p class="ml-3 text-primary">Phillip Massey</p>
 										</div>
-                                        <div class="row">
 										<div class="row align-items-center justify-content-between px-4">
 											<div class="row">
 												<img src="images/star_on.png" class="" alt="star">
@@ -280,9 +296,8 @@
 												<img src="images/star_on.png" class="" alt="star">
 												<img src="images/star_off.png" class="" alt="star">
 											</div>
-											<p class="text-barney ml-3 pt-3">8 min</p>
-											</div>
-                                        </div>
+											<p class="text-primary ml-3 pt-3">8 min</p>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -294,13 +309,15 @@
 									<img class="card-img-top" src="images/thumbnail_1.jpg" alt="">
 									<div class="card-body">
 										<h1 class="card-title lead font-weight-bold">Natural Smile</h1>
-										<p class="card-text text-secondary">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
-										<div class="row">
-											<img class="rounded-circle ml-3" src="images/profile_1.jpg" height="25px" width="25px" alt="">
-											<img class="card-img-overlay mx-auto mb-auto w-50" src="images/play.png" alt="play button">
-											<p class="ml-3 text-barney">Phillip Massey</p>
+										<p class="card-text text-secondary">Lorem ipsum dolor sit amet, consect
+											adipiscing elit, sed do eiusmod.</p>
+										<div class="row align-items-center">
+											<img class="rounded-circle ml-3" src="images/profile_1.jpg" height="25px"
+												width="25px" alt="">
+											<img class="card-img-overlay mx-auto mb-auto play" src="images/play.png"
+												alt="play button">
+											<p class="ml-3 text-primary">Phillip Massey</p>
 										</div>
-                                        <div class="row">
 										<div class="row align-items-center justify-content-between px-4">
 											<div class="row">
 												<img src="images/star_on.png" class="" alt="star">
@@ -309,23 +326,24 @@
 												<img src="images/star_on.png" class="" alt="star">
 												<img src="images/star_off.png" class="" alt="star">
 											</div>
-											<p class="text-barney ml-3 pt-3">8 min</p>
-											</div>
-                                        </div>
+											<p class="text-primary ml-3 pt-3">8 min</p>
+										</div>
 									</div>
 								</div>
-							<!-- Item two Repeat -->
+								<!-- Item two Repeat -->
 								<div class="card col-lg-3 col-md-6 col-12 border-0">
 									<img class="card-img-top" src="images/thumbnail_2.jpg" alt="">
 									<div class="card-body">
 										<h1 class="card-title lead font-weight-bold">Happy Smile</h1>
-										<p class="card-text text-secondary">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
-										<div class="row">
-											<img class="rounded-circle ml-3" src="images/profile_1.jpg" height="25px" width="25px" alt="">
-											<img class="card-img-overlay mx-auto mb-auto w-50" src="images/play.png" alt="play button">
-											<p class="ml-3 text-barney">Phillip Massey</p>
+										<p class="card-text text-secondary">Lorem ipsum dolor sit amet, consect
+											adipiscing elit, sed do eiusmod.</p>
+										<div class="row align-items-center">
+											<img class="rounded-circle ml-3" src="images/profile_1.jpg" height="25px"
+												width="25px" alt="">
+											<img class="card-img-overlay mx-auto mb-auto play" src="images/play.png"
+												alt="play button">
+											<p class="ml-3 text-primary">Phillip Massey</p>
 										</div>
-                                        <div class="row">
 										<div class="row align-items-center justify-content-between px-4">
 											<div class="row">
 												<img src="images/star_on.png" class="" alt="star">
@@ -334,23 +352,24 @@
 												<img src="images/star_on.png" class="" alt="star">
 												<img src="images/star_off.png" class="" alt="star">
 											</div>
-											<p class="text-barney ml-3 pt-3">8 min</p>
-											</div>
-                                        </div>
+											<p class="text-primary ml-3 pt-3">8 min</p>
+										</div>
 									</div>
 								</div>
-							<!-- Item three Repeat -->
+								<!-- Item three Repeat -->
 								<div class="card col-lg-3 col-md-6 col-12 border-0">
 									<img class="card-img-top" src="images/thumbnail_4.jpg" alt="">
 									<div class="card-body mb-5">
 										<h1 class="card-title lead font-weight-bold">Diagonal Smile</h1>
-										<p class="card-text text-secondary">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
-										<div class="row">
-											<img class="rounded-circle ml-3" src="images/profile_1.jpg" height="25px" width="25px" alt="">
-											<img class="card-img-overlay mx-auto mb-auto w-50" src="images/play.png" alt="play button">
-											<p class="ml-3 text-barney">Phillip Massey</p>
+										<p class="card-text text-secondary">Lorem ipsum dolor sit amet, consect
+											adipiscing elit, sed do eiusmod.</p>
+										<div class="row align-items-center">
+											<img class="rounded-circle ml-3" src="images/profile_1.jpg" height="25px"
+												width="25px" alt="">
+											<img class="card-img-overlay mx-auto mb-auto play" src="images/play.png"
+												alt="play button">
+											<p class="ml-3 text-primary">Phillip Massey</p>
 										</div>
-                                        <div class="row">
 										<div class="row align-items-center justify-content-between px-4">
 											<div class="row">
 												<img src="images/star_on.png" class="" alt="star">
@@ -359,23 +378,24 @@
 												<img src="images/star_on.png" class="" alt="star">
 												<img src="images/star_off.png" class="" alt="star">
 											</div>
-											<p class="text-barney ml-3 pt-3">8 min</p>
-											</div>
-                                        </div>
+											<p class="text-primary ml-3 pt-3">8 min</p>
+										</div>
 									</div>
 								</div>
-							<!-- Item four Repeat -->
+								<!-- Item four Repeat -->
 								<div class="card col-lg-3 col-md-6 col-12 border-0">
 									<img class="card-img-top" src="images/thumbnail_3.jpg" alt="">
 									<div class="card-body">
 										<h1 class="card-title lead font-weight-bold">Sad Smile</h1>
-										<p class="card-text text-secondary">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
-										<div class="row">
-											<img class="rounded-circle ml-3" src="images/profile_1.jpg" height="25px" width="25px" alt="">
-											<img class="card-img-overlay mx-auto mb-auto w-50" src="images/play.png" alt="play button">
-											<p class="ml-3 text-barney">Phillip Massey</p>
+										<p class="card-text text-secondary">Lorem ipsum dolor sit amet, consect
+											adipiscing elit, sed do eiusmod.</p>
+										<div class="row align-items-center">
+											<img class="rounded-circle ml-3" src="images/profile_1.jpg" height="25px"
+												width="25px" alt="">
+											<img class="card-img-overlay mx-auto mb-auto play" src="images/play.png"
+												alt="play button">
+											<p class="ml-3 text-primary">Phillip Massey</p>
 										</div>
-                                        <div class="row">
 										<div class="row align-items-center justify-content-between px-4">
 											<div class="row">
 												<img src="images/star_on.png" class="" alt="star">
@@ -384,284 +404,317 @@
 												<img src="images/star_on.png" class="" alt="star">
 												<img src="images/star_off.png" class="" alt="star">
 											</div>
-											<p class="text-barney ml-3 pt-3">8 min</p>
-											</div>
-                                        </div>
+											<p class="text-primary ml-3 pt-3">8 min</p>
+										</div>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-					<!-- carousel controls  -->
-					<a class="carousel-control-prev" href="#popularvids" role="button" data-slide="prev">
-						<img src="images/arrow_black_left.png" aria-hidden="true" height="65px" width="30px" alt="previous">
-						<span class="sr-only">Previous</span>
-					</a>
-					<a class="carousel-control-next" href="#popularvids" role="button" data-slide="next">
-						<img src="images/arrow_black_right.png" aria-hidden="true" height="65px" width="30px" alt="next">
-						<span class="sr-only">Next</span>
-					</a>
 				</div>
+				<!-- carousel controls  -->
+				<a class="carousel-control-prev" href="#popularvids" role="button" data-slide="prev">
+					<img src="images/arrow_black_left.png" aria-hidden="true" height="65px" width="30px" alt="previous">
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#popularvids" role="button" data-slide="next">
+					<img src="images/arrow_black_right.png" aria-hidden="true" height="65px" width="30px" alt="next">
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
 			</div>
 		</section>
 		<!-- Free Membership -->
 		<section class="bg-dark container-fluid">
-			<h1 class="text-center text-white font-weight-light py-5"><span class="font-weight-bold text-primary">Free</span> membership</h1>
+			<h1 class="text-center text-white font-weight-light py-5"><span
+					class="font-weight-bold text-primary">Free</span> membership</h1>
 			<div class="container-lg">
 				<div class="row">
-					<div class="col-12 col-md-6 col-lg-3 text-center p-4">
+					<div class="col-12 col-md-6 col-lg-3 text-center p-4 mb-3">
 						<img src="./images/smile_on.png" alt="smile" height="35" width="45">
-						<h1 class="lead text-white font-weight-bold">Lorem ipsum</h1>
-						<p class="text-white font-weight-light">Lorem ipsum dolor sit amet, <br>consect adipiscing elit, sed do eiusmod.</p>
+						<h1 class="lead text-white font-weight-bold mt-3">Lorem ipsum</h1>
+						<p class="text-white font-weight-light mt-2">Lorem ipsum dolor sit amet, <br>consect adipiscing
+							elit, sed do eiusmod.</p>
 					</div>
-					<div class="col-12 col-md-6 col-lg-3 text-center p-4">
+					<div class="col-12 col-md-6 col-lg-3 text-center p-4 mb-3">
 						<img src="./images/smile_on.png" alt="smile" height="35" width="45">
-						<h1 class="lead text-white font-weight-bold">Lorem ipsum</h1>
-						<p class="text-white font-weight-light">Lorem ipsum dolor sit amet, <br>consect adipiscing elit, sed do eiusmod.</p>
+						<h1 class="lead text-white font-weight-bold mt-3">Lorem ipsum</h1>
+						<p class="text-white font-weight-light mt-2">Lorem ipsum dolor sit amet, <br>consect adipiscing
+							elit, sed do eiusmod.</p>
 					</div>
-					<div class="col-12 col-md-6 col-lg-3 text-center p-4">
+					<div class="col-12 col-md-6 col-lg-3 text-center p-4 mb-3">
 						<img src="./images/smile_on.png" alt="smile" height="35" width="45">
-						<h1 class="lead text-white font-weight-bold">Lorem ipsum</h1>
-						<p class="text-white font-weight-light">Lorem ipsum dolor sit amet, <br>consect adipiscing elit, sed do eiusmod.</p>
+						<h1 class="lead text-white font-weight-bold mt-3">Lorem ipsum</h1>
+						<p class="text-white font-weight-light mt-2">Lorem ipsum dolor sit amet, <br>consect adipiscing
+							elit, sed do eiusmod.</p>
 					</div>
-					<div class="col-12 col-md-6 col-lg-3 text-center p-4">
+					<div class="col-12 col-md-6 col-lg-3 text-center p-4 mb-3">
 						<img src="./images/smile_on.png" alt="smile" height="35" width="45">
-						<h1 class="lead text-white font-weight-bold">Lorem ipsum</h1>
-						<p class="text-white font-weight-light">Lorem ipsum dolor sit amet, <br>consect adipiscing elit, sed do eiusmod.</p>
+						<h1 class="lead text-white font-weight-bold mt-3">Lorem ipsum</h1>
+						<p class="text-white font-weight-light mt-2">Lorem ipsum dolor sit amet, <br>consect adipiscing
+							elit, sed do eiusmod.</p>
 					</div>
 				</div>
 			</div>
 			<div class="d-flex justify-content-center pb-5">
-				<button class="btn btn-primary rounded-pill text-uppercase font-weight-bold btn-shadow px-4 py-2 m-3" href="#">Register for free</button>
+				<button class="btn btn-primary rounded-pill text-uppercase font-weight-bold btn-shadow px-4 py-2 m-3"
+					href="#">Register for free</button>
 		</section>
 
-	<!-- Latest Videos -->
-	<section class="container-fluid text-secondary bg-white py-5 mb-5 d-none d-sm-block">
-		<div class="container-lg quotes">
-			<h1 class="py-5 my-5 text-center font-weight-light"><span class="font-weight-bold text-primary">Latest</span> Videos</h1>
-			<div id="popularvids" class="carousel slide" data-ride="carousel">
-				<div class="container-lg">
-					<div class="carousel-inner">
-						<div class="carousel-item active">
-							<div class="d-flex">
-							<!-- Item one -->
-								<div class="card col-lg-3 col-md-6 col-12 border-0">
-									<img class="card-img-top" src="images/thumbnail_4.jpg" alt="">
-									<div class="card-body mb-5">
-										<h1 class="card-title lead font-weight-bold">Diagonal Smile</h1>
-										<p class="card-text text-secondary">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
-										<div class="row">
-											<img class="rounded-circle ml-3" src="images/profile_1.jpg" height="25px" width="25px" alt="">
-											<img class="card-img-overlay mx-auto mb-auto w-50" src="images/play.png" alt="play button">
-											<p class="ml-3 text-barney">Phillip Massey</p>
-										</div>
-                                        <div class="row">
-										<div class="row align-items-center justify-content-between px-4">
+		<!-- Latest Videos -->
+		<section class="container-fluid text-secondary bg-white py-5 mb-5 d-none d-sm-block">
+			<div class="container-lg quotes">
+				<h1 class="py-5 my-5 text-center font-weight-light"><span
+						class="font-weight-bold text-primary">Latest</span> Videos</h1>
+				<div id="popularvids" class="carousel slide" data-ride="carousel">
+					<div class="container-lg">
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<div class="d-flex">
+									<!-- Item one -->
+									<div class="card col-lg-3 col-md-6 col-12 border-0">
+										<img class="card-img-top" src="images/thumbnail_4.jpg" alt="">
+										<div class="card-body mb-5">
+											<h1 class="card-title lead font-weight-bold">Diagonal Smile</h1>
+											<p class="card-text text-secondary">Lorem ipsum dolor sit amet, consect
+												adipiscing elit, sed do eiusmod.</p>
 											<div class="row">
-												<img src="images/star_on.png" class="" alt="star">
-												<img src="images/star_on.png" class="" alt="star">
-												<img src="images/star_on.png" class="" alt="star">
-												<img src="images/star_on.png" class="" alt="star">
-												<img src="images/star_off.png" class="" alt="star">
+												<img class="rounded-circle ml-3" src="images/profile_1.jpg"
+													height="25px" width="25px" alt="">
+												<img class="card-img-overlay mx-auto mb-auto play" src="images/play.png"
+													alt="play button">
+												<p class="ml-3 text-primary">Phillip Massey</p>
 											</div>
-											<p class="ml-3 pt-3 text-barney">8 min</p>
+											<div class="row">
+												<div class="row align-items-center justify-content-between px-4">
+													<div class="row">
+														<img src="images/star_on.png" class="" alt="star">
+														<img src="images/star_on.png" class="" alt="star">
+														<img src="images/star_on.png" class="" alt="star">
+														<img src="images/star_on.png" class="" alt="star">
+														<img src="images/star_off.png" class="" alt="star">
+													</div>
+													<p class="ml-3 pt-3 text-primary">8 min</p>
+												</div>
 											</div>
-                                        </div>
+										</div>
+									</div>
+									<!-- Item two -->
+									<div class="card col-lg-3 col-md-6 col-12 border-0">
+										<img class="card-img-top" src="images/thumbnail_3.jpg" alt="">
+										<div class="card-body">
+											<h1 class="card-title lead font-weight-bold">Sad Smile</h1>
+											<p class="card-text text-secondary">Lorem ipsum dolor sit amet, consect
+												adipiscing elit, sed do eiusmod.</p>
+											<div class="row">
+												<img class="rounded-circle ml-3" src="images/profile_1.jpg"
+													height="25px" width="25px" alt="">
+												<img class="card-img-overlay mx-auto mb-auto play" src="images/play.png"
+													alt="play button">
+												<p class="ml-3 text-primary">Phillip Massey</p>
+											</div>
+											<div class="row">
+												<div class="row align-items-center justify-content-between px-4">
+													<div class="row">
+														<img src="images/star_on.png" class="" alt="star">
+														<img src="images/star_on.png" class="" alt="star">
+														<img src="images/star_on.png" class="" alt="star">
+														<img src="images/star_on.png" class="" alt="star">
+														<img src="images/star_off.png" class="" alt="star">
+													</div>
+													<p class="text-primary ml-3 pt-3">8 min</p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- Item three -->
+									<div class="card col-lg-3 col-md-6 col-12 border-0">
+										<img class="card-img-top" src="images/thumbnail_1.jpg" alt="">
+										<div class="card-body">
+											<h1 class="card-title lead font-weight-bold">Natural Smile</h1>
+											<p class="card-text text-secondary">Lorem ipsum dolor sit amet, consect
+												adipiscing elit, sed do eiusmod.</p>
+											<div class="row">
+												<img class="rounded-circle ml-3" src="images/profile_1.jpg"
+													height="25px" width="25px" alt="">
+												<img class="card-img-overlay mx-auto mb-auto play" src="images/play.png"
+													alt="play button">
+												<p class="ml-3 text-primary">Phillip Massey</p>
+											</div>
+											<div class="row">
+												<div class="row align-items-center justify-content-between px-4">
+													<div class="row">
+														<img src="images/star_on.png" class="" alt="star">
+														<img src="images/star_on.png" class="" alt="star">
+														<img src="images/star_on.png" class="" alt="star">
+														<img src="images/star_on.png" class="" alt="star">
+														<img src="images/star_off.png" class="" alt="star">
+													</div>
+													<p class="text-primary ml-3 pt-3">8 min</p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- Item four -->
+									<div class="card col-lg-3 col-md-6 col-12 border-0">
+										<img class="card-img-top" src="images/thumbnail_2.jpg" alt="">
+										<div class="card-body">
+											<h1 class="card-title lead font-weight-bold">Happy Smile</h1>
+											<p class="card-text text-secondary">Lorem ipsum dolor sit amet, consect
+												adipiscing elit, sed do eiusmod.</p>
+											<div class="row">
+												<img class="rounded-circle ml-3" src="images/profile_1.jpg"
+													height="25px" width="25px" alt="">
+												<img class="card-img-overlay mx-auto mb-auto play" src="images/play.png"
+													alt="play button">
+												<p class="ml-3 text-primary">Phillip Massey</p>
+											</div>
+											<div class="row">
+												<div class="row align-items-center justify-content-between px-4">
+													<div class="row">
+														<img src="images/star_on.png" class="" alt="star">
+														<img src="images/star_on.png" class="" alt="star">
+														<img src="images/star_on.png" class="" alt="star">
+														<img src="images/star_on.png" class="" alt="star">
+														<img src="images/star_off.png" class="" alt="star">
+													</div>
+													<p class="text-primary ml-3 pt-3">8 min</p>
+												</div>
+											</div>
+										</div>
 									</div>
 								</div>
-							<!-- Item two -->
-								<div class="card col-lg-3 col-md-6 col-12 border-0">
-									<img class="card-img-top" src="images/thumbnail_3.jpg" alt="">
-									<div class="card-body">
-										<h1 class="card-title lead font-weight-bold">Sad Smile</h1>
-										<p class="card-text text-secondary">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
-										<div class="row">
-											<img class="rounded-circle ml-3" src="images/profile_1.jpg" height="25px" width="25px" alt="">
-											<img class="card-img-overlay mx-auto mb-auto w-50" src="images/play.png" alt="play button">
-											<p class="ml-3 text-barney">Phillip Massey</p>
-										</div>
-                                        <div class="row">
-										<div class="row align-items-center justify-content-between px-4">
+							</div>
+							<!-- Item One Repeat -->
+							<div class="carousel-item">
+								<div class="d-flex">
+									<div class="card col-lg-3 col-md-6 col-12 border-0">
+										<img class="card-img-top" src="images/thumbnail_1.jpg" alt="">
+										<div class="card-body">
+											<h1 class="card-title lead font-weight-bold">Natural Smile</h1>
+											<p class="card-text text-secondary">Lorem ipsum dolor sit amet, consect
+												adipiscing elit, sed do eiusmod.</p>
 											<div class="row">
-												<img src="images/star_on.png" class="" alt="star">
-												<img src="images/star_on.png" class="" alt="star">
-												<img src="images/star_on.png" class="" alt="star">
-												<img src="images/star_on.png" class="" alt="star">
-												<img src="images/star_off.png" class="" alt="star">
+												<img class="rounded-circle ml-3" src="images/profile_1.jpg"
+													height="25px" width="25px" alt="">
+												<img class="card-img-overlay mx-auto mb-auto play" src="images/play.png"
+													alt="play button">
+												<p class="ml-3 text-primary">Phillip Massey</p>
 											</div>
-											<p class="text-barney ml-3 pt-3">8 min</p>
+											<div class="row">
+												<div class="row align-items-center justify-content-between px-4">
+													<div class="row">
+														<img src="images/star_on.png" class="" alt="star">
+														<img src="images/star_on.png" class="" alt="star">
+														<img src="images/star_on.png" class="" alt="star">
+														<img src="images/star_on.png" class="" alt="star">
+														<img src="images/star_off.png" class="" alt="star">
+													</div>
+													<p class="text-primary ml-3 pt-3">8 min</p>
+												</div>
 											</div>
-                                        </div>
+										</div>
 									</div>
-								</div>
-							<!-- Item three -->
-								<div class="card col-lg-3 col-md-6 col-12 border-0">
-									<img class="card-img-top" src="images/thumbnail_1.jpg" alt="">
-									<div class="card-body">
-										<h1 class="card-title lead font-weight-bold">Natural Smile</h1>
-										<p class="card-text text-secondary">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
-										<div class="row">
-											<img class="rounded-circle ml-3" src="images/profile_1.jpg" height="25px" width="25px" alt="">
-											<img class="card-img-overlay mx-auto mb-auto w-50" src="images/play.png" alt="play button">
-											<p class="ml-3 text-barney">Phillip Massey</p>
-										</div>
-                                        <div class="row">
-										<div class="row align-items-center justify-content-between px-4">
+									<!-- Item two Repeat -->
+									<div class="card col-lg-3 col-md-6 col-12 border-0">
+										<img class="card-img-top" src="images/thumbnail_2.jpg" alt="">
+										<div class="card-body">
+											<h1 class="card-title lead font-weight-bold">Happy Smile</h1>
+											<p class="card-text text-secondary">Lorem ipsum dolor sit amet, consect
+												adipiscing elit, sed do eiusmod.</p>
 											<div class="row">
-												<img src="images/star_on.png" class="" alt="star">
-												<img src="images/star_on.png" class="" alt="star">
-												<img src="images/star_on.png" class="" alt="star">
-												<img src="images/star_on.png" class="" alt="star">
-												<img src="images/star_off.png" class="" alt="star">
+												<img class="rounded-circle ml-3" src="images/profile_1.jpg"
+													height="25px" width="25px" alt="">
+												<img class="card-img-overlay mx-auto mb-auto play" src="images/play.png"
+													alt="play button">
+												<p class="ml-3 text-primary">Phillip Massey</p>
 											</div>
-											<p class="text-barney ml-3 pt-3">8 min</p>
+											<div class="row">
+												<div class="row align-items-center justify-content-between px-4">
+													<div class="row">
+														<img src="images/star_on.png" class="" alt="star">
+														<img src="images/star_on.png" class="" alt="star">
+														<img src="images/star_on.png" class="" alt="star">
+														<img src="images/star_on.png" class="" alt="star">
+														<img src="images/star_off.png" class="" alt="star">
+													</div>
+													<p class="text-primary ml-3 pt-3">8 min</p>
+												</div>
 											</div>
-                                        </div>
+										</div>
 									</div>
-								</div>
-							<!-- Item four -->
-								<div class="card col-lg-3 col-md-6 col-12 border-0">
-									<img class="card-img-top" src="images/thumbnail_2.jpg" alt="">
-									<div class="card-body">
-										<h1 class="card-title lead font-weight-bold">Happy Smile</h1>
-										<p class="card-text text-secondary">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
-										<div class="row">
-											<img class="rounded-circle ml-3" src="images/profile_1.jpg" height="25px" width="25px" alt="">
-											<img class="card-img-overlay mx-auto mb-auto w-50" src="images/play.png" alt="play button">
-											<p class="ml-3 text-barney">Phillip Massey</p>
-										</div>
-                                        <div class="row">
-										<div class="row align-items-center justify-content-between px-4">
+									<!-- Item three Repeat -->
+									<div class="card col-lg-3 col-md-6 col-12 border-0">
+										<img class="card-img-top" src="images/thumbnail_4.jpg" alt="">
+										<div class="card-body mb-5">
+											<h1 class="card-title lead font-weight-bold">Diagonal Smile</h1>
+											<p class="card-text text-secondary">Lorem ipsum dolor sit amet, consect
+												adipiscing elit, sed do eiusmod.</p>
 											<div class="row">
-												<img src="images/star_on.png" class="" alt="star">
-												<img src="images/star_on.png" class="" alt="star">
-												<img src="images/star_on.png" class="" alt="star">
-												<img src="images/star_on.png" class="" alt="star">
-												<img src="images/star_off.png" class="" alt="star">
+												<img class="rounded-circle ml-3" src="images/profile_1.jpg"
+													height="25px" width="25px" alt="">
+												<img class="card-img-overlay mx-auto mb-auto play" src="images/play.png"
+													alt="play button">
+												<p class="ml-3 text-primary">Phillip Massey</p>
 											</div>
-											<p class="text-barney ml-3 pt-3">8 min</p>
+											<div class="row">
+												<div class="row align-items-center justify-content-between px-4">
+													<div class="row">
+														<img src="images/star_on.png" class="" alt="star">
+														<img src="images/star_on.png" class="" alt="star">
+														<img src="images/star_on.png" class="" alt="star">
+														<img src="images/star_on.png" class="" alt="star">
+														<img src="images/star_off.png" class="" alt="star">
+													</div>
+													<p class="text-primary ml-3 pt-3">8 min</p>
+												</div>
 											</div>
-                                        </div>
+										</div>
+									</div>
+									<!-- Item four Repeat -->
+									<div class="card col-lg-3 col-md-6 col-12 border-0">
+										<img class="card-img-top" src="images/thumbnail_3.jpg" alt="">
+										<div class="card-body">
+											<h1 class="card-title lead font-weight-bold">Sad Smile</h1>
+											<p class="card-text text-secondary">Lorem ipsum dolor sit amet, consect
+												adipiscing elit, sed do eiusmod.</p>
+											<div class="row">
+												<img class="rounded-circle ml-3" src="images/profile_1.jpg"
+													height="25px" width="25px" alt="">
+												<img class="card-img-overlay mx-auto mb-auto play" src="images/play.png"
+													alt="play button">
+												<p class="ml-3 text-primary">Phillip Massey</p>
+											</div>
+											<div class="row">
+												<div class="row align-items-center justify-content-between px-4">
+													<div class="row">
+														<img src="images/star_on.png" class="" alt="star">
+														<img src="images/star_on.png" class="" alt="star">
+														<img src="images/star_on.png" class="" alt="star">
+														<img src="images/star_on.png" class="" alt="star">
+														<img src="images/star_off.png" class="" alt="star">
+													</div>
+													<p class="text-primary ml-3 pt-3">8 min</p>
+												</div>
+											</div>
+										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-						<!-- Item One Repeat -->
-						<div class="carousel-item">
-							<div class="d-flex">
-								<div class="card col-lg-3 col-md-6 col-12 border-0">
-									<img class="card-img-top" src="images/thumbnail_1.jpg" alt="">
-									<div class="card-body">
-										<h1 class="card-title lead font-weight-bold">Natural Smile</h1>
-										<p class="card-text text-secondary">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
-										<div class="row">
-											<img class="rounded-circle ml-3" src="images/profile_1.jpg" height="25px" width="25px" alt="">
-											<img class="card-img-overlay mx-auto mb-auto w-50" src="images/play.png" alt="play button">
-											<p class="ml-3 text-barney">Phillip Massey</p>
-										</div>
-                                        <div class="row">
-										<div class="row align-items-center justify-content-between px-4">
-											<div class="row">
-												<img src="images/star_on.png" class="" alt="star">
-												<img src="images/star_on.png" class="" alt="star">
-												<img src="images/star_on.png" class="" alt="star">
-												<img src="images/star_on.png" class="" alt="star">
-												<img src="images/star_off.png" class="" alt="star">
-											</div>
-											<p class="text-barney ml-3 pt-3">8 min</p>
-											</div>
-                                        </div>
-									</div>
-								</div>
-							<!-- Item two Repeat -->
-								<div class="card col-lg-3 col-md-6 col-12 border-0">
-									<img class="card-img-top" src="images/thumbnail_2.jpg" alt="">
-									<div class="card-body">
-										<h1 class="card-title lead font-weight-bold">Happy Smile</h1>
-										<p class="card-text text-secondary">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
-										<div class="row">
-											<img class="rounded-circle ml-3" src="images/profile_1.jpg" height="25px" width="25px" alt="">
-											<img class="card-img-overlay mx-auto mb-auto w-50" src="images/play.png" alt="play button">
-											<p class="ml-3 text-barney">Phillip Massey</p>
-										</div>
-                                        <div class="row">
-										<div class="row align-items-center justify-content-between px-4">
-											<div class="row">
-												<img src="images/star_on.png" class="" alt="star">
-												<img src="images/star_on.png" class="" alt="star">
-												<img src="images/star_on.png" class="" alt="star">
-												<img src="images/star_on.png" class="" alt="star">
-												<img src="images/star_off.png" class="" alt="star">
-											</div>
-											<p class="text-barney ml-3 pt-3">8 min</p>
-											</div>
-                                        </div>
-									</div>
-								</div>
-							<!-- Item three Repeat -->
-								<div class="card col-lg-3 col-md-6 col-12 border-0">
-									<img class="card-img-top" src="images/thumbnail_4.jpg" alt="">
-									<div class="card-body mb-5">
-										<h1 class="card-title lead font-weight-bold">Diagonal Smile</h1>
-										<p class="card-text text-secondary">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
-										<div class="row">
-											<img class="rounded-circle ml-3" src="images/profile_1.jpg" height="25px" width="25px" alt="">
-											<img class="card-img-overlay mx-auto mb-auto w-50" src="images/play.png" alt="play button">
-											<p class="ml-3 text-barney">Phillip Massey</p>
-										</div>
-                                        <div class="row">
-										<div class="row align-items-center justify-content-between px-4">
-											<div class="row">
-												<img src="images/star_on.png" class="" alt="star">
-												<img src="images/star_on.png" class="" alt="star">
-												<img src="images/star_on.png" class="" alt="star">
-												<img src="images/star_on.png" class="" alt="star">
-												<img src="images/star_off.png" class="" alt="star">
-											</div>
-											<p class="text-barney ml-3 pt-3">8 min</p>
-											</div>
-                                        </div>
-									</div>
-								</div>
-							<!-- Item four Repeat -->
-								<div class="card col-lg-3 col-md-6 col-12 border-0">
-									<img class="card-img-top" src="images/thumbnail_3.jpg" alt="">
-									<div class="card-body">
-										<h1 class="card-title lead font-weight-bold">Sad Smile</h1>
-										<p class="card-text text-secondary">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
-										<div class="row">
-											<img class="rounded-circle ml-3" src="images/profile_1.jpg" height="25px" width="25px" alt="">
-											<img class="card-img-overlay mx-auto mb-auto w-50" src="images/play.png" alt="play button">
-											<p class="ml-3 text-barney">Phillip Massey</p>
-										</div>
-                                        <div class="row">
-										<div class="row align-items-center justify-content-between px-4">
-											<div class="row">
-												<img src="images/star_on.png" class="" alt="star">
-												<img src="images/star_on.png" class="" alt="star">
-												<img src="images/star_on.png" class="" alt="star">
-												<img src="images/star_on.png" class="" alt="star">
-												<img src="images/star_off.png" class="" alt="star">
-											</div>
-											<p class="text-barney ml-3 pt-3">8 min</p>
-											</div>
-                                        </div>
-									</div>
-								</div>
-							</div>
-						</div>
+						<!-- carousel controls  -->
+						<a class="carousel-control-prev" href="#popularvids" role="button" data-slide="prev">
+							<img src="images/arrow_black_left.png" aria-hidden="true" height="65px" width="30px"
+								alt="previous">
+							<span class="sr-only">Previous</span>
+						</a>
+						<a class="carousel-control-next" href="#popularvids" role="button" data-slide="next">
+							<img src="images/arrow_black_right.png" aria-hidden="true" height="65px" width="30px"
+								alt="next">
+							<span class="sr-only">Next</span>
+						</a>
 					</div>
-					<!-- carousel controls  -->
-					<a class="carousel-control-prev" href="#popularvids" role="button" data-slide="prev">
-						<img src="images/arrow_black_left.png" aria-hidden="true" height="65px" width="30px" alt="previous">
-						<span class="sr-only">Previous</span>
-					</a>
-					<a class="carousel-control-next" href="#popularvids" role="button" data-slide="next">
-						<img src="images/arrow_black_right.png" aria-hidden="true" height="65px" width="30px" alt="next">
-						<span class="sr-only">Next</span>
-					</a>
 				</div>
-			</div>
 		</section>
 	</main>
 	<!-- Footer -->
@@ -679,11 +732,11 @@
 						<ul class="list-group list-group-horizontal list-unstyled">
 							<li class="ml-3">
 								<a class="text-decorartion-none" href="https://www.facebook.com/">
-								<span class="fb-icon display-4"></span></a>
+									<span class="fb-icon display-4"></span></a>
 							</li>
 							<li class="ml-3">
 								<a class="text-decorartion-none" href="https://www.twitter.com/">
-								<span class="twitter-icon display-4"></span></a>
+									<span class="twitter-icon display-4"></span></a>
 							</li>
 							<li class="ml-3">
 								<a class="text-decorartion-none" href="https://www.instagram.com/">
@@ -693,8 +746,8 @@
 					</div>
 				</div>
 			</div>
-				<p class="text-center text-muted small pb-5 mb-0">©smileschool 2020</p>
-			</div>
+			<p class="text-center text-muted small pb-5 mb-0">©smileschool 2020</p>
+		</div>
 		</div>
 	</footer>
 	<!-- Scripts for Bootstrap and jQuery -->
